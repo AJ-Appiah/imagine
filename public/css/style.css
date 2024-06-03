@@ -1,0 +1,54 @@
+body{
+    margin: 0px;
+    font-family: 'open sans', sans sherif;
+}
+#logo{
+    color: black;
+    font-size: 30pt;
+    text-decoration: none;
+    font-family: 'open sans', sans-serif;
+    padding: 0 30 0 60;
+    /* letter-spacing: -2px; */
+    
+}
+#dot{
+    color: rgb(61, 47, 188);
+}
+#nav-links {
+    display: flex;
+    list-style: none; 
+    justify-content: space-evenly;
+    font-family: 'open sans', sans sherif;  
+    align-items: center ;
+    gap: 35px; 
+    padding: 10 10 20 0;
+}
+#navbar{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'open sans', sans sherif; 
+    width: 100%;
+    background-color: aquamarine;
+    height: 70px;
+}
+#Home, #Features, #About, #Testimonials, #Blog, #Contact {
+    color: #8400ff;
+    text-decoration: none;
+}
+#firstpage{
+    display: flex; 
+}
+#mainone{
+   font-size: 40pt;
+    font-weight: 900;
+    display: flex;
+    font-family: 'open sans', sans sherif; 
+}
+#paragrah1{
+    font-size: 20pt;
+    font-weight: 100;
+    display: flex;
+    font-family: 'open sans', sans sherif; 
+} 
