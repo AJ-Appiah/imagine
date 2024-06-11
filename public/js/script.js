@@ -94,79 +94,24 @@ login('AJ-Appiah', '1234');
 78 % 4;
 
 //Comparison
+2 === 2;
+3 !== 3;
+3 !== 2;
+//Built-in Math Functions
+Math.round(37 / 24);
+Math.floor(37 / 24);
+Math.ceil(37 / 24);
+
+// Order of operations
+1 * 2 + 3 - 4 / 2 + 2**2;
+
+//Handling user inputs
+1200 + Number('250');
+1200 - '250';
 
 
 
 
-
-
-//Write a function that will add a participant to our Google Classroom
-const participants = [];
-function addParticipant(email) {
-  //Check if email was provided
-  if (email === null || email === undefined){
-      return 'Email not provided!'
-      }
-  //Check if email is valid
-  if (!email.includes('@')) {
-    return 'Invalid email provided!';
-  }
-  // Add email to the list to the participants;
-  participants.push(email)
-  //Notify them via email
-  //return response
-  return 'Participant added!';
-}
-
-addParticipant('ericapph@gmail.com'); 
-
-
-// Arrays in JavaScript
-const alphabets = ['A', 'B', 'C', 'D'];
-alphabets
-alphabets.join(' ');
-alphabets.join(' ').split(' ');
-
-
-// Write a function that will take a user with firstname, lastname and return fullname;
-const user = {
-    firstname: 'Joe',
-    lastname: 'Ganner'
-  }
-  
-  function fullname(user) {
-    return {
-      ...user, 
-      fullname: `${user.firstname} ${user.lastname}`
-    }
-  }
-  
-  fullname(user);
-  
-  //Array map
-  const users = [
-    {firstname: 'Linda', lastname: 'Parker'},
-    {firstname: 'Mark', lastname: 'Twaine'},
-    {firstname: 'Oliver', lastname: 'Queen'},
-    {firstname: 'Stephen', lastname: 'Grider'},
-    {firstname: 'Elon', lastname: 'Musk'}
-  ]
-  users.map(fullname);
-  
-  
-  //Map and return squares of numbers
-  function square(number) {
-    return number ** 2;
-  }
-  const numbers = [0,1,2,3,4,5]
-  numbers.map(square);
-  
-  //Filter and return even numners
-  function even(number) {
-    return number % 2 === 0;
-  }
-  numbers.filter(even);
-  
   
   
   
