@@ -109,8 +109,30 @@ Math.ceil(37 / 24);
 1200 + Number('250');
 1200 - '250';
 
+//String Concatenation
+const firstname = 'Erica';
+const lastname = 'Appiah';
+firstname.trim() +'' + lastname.trim();
+
+//Template literal
+`${firstname.trim()} ${lastname.trim}`;
+
+//String methods
+firstname.length;
+lastname.length;
+`${firstname.trim()} ${lastname.trim}`.length;
+(firstname.trim() + '' + lastname.trim()).length;
+firstname.toUpperCase()
+lastname.charAt(0)
+`${firstname.trim()} ${lastname.trim()}`.charAt(8);
+`${firstname.trim().charAt(0)}${lastname.trim().charAt(0)}`;
+
+//String conversion
+String(2014);
 
 
+
+  
 
   
   
