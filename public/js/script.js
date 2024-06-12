@@ -197,6 +197,45 @@ const user = {
   numbers.filter(even);
 
 
+  // Write a function that takes a user name with name and dateOfBirth and return true if their birthday is today else false
+
+const user = {
+  name: 'Martin King',
+  dateOfBirth: '1994-06-12'
+}
+
+function isBirthday(user){
+  const today = new Date();
+  const birthDate = new Date(user.dateOfBirth);
+  if (today.getMonth() === birthDate.getMonth() && today.getDate() === 
+     birthDate.getDate()){
+    return true; 
+  }else {
+    return false
+  }
+}
+
+isBirthday(user)
+
+// Write a function that takes a user name with name and dateOfBirth and return birthday message if their birthday is today else not you day
+function birthdayWish(){
+  if (isBirthday(user)){
+    return `Happy Birthday, ${user.name}`;
+  }else {
+    return 'Not your day';
+  }
+}
+
+birthdayWish();
+
+  
+  
+  
+  
+  
+  
+  
+  
   
 
   
